@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center_horizontal"
+        >
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" android:layout_weight="2"/>
+
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="AUDIO"
+            android:background="#FFFFFF"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:id="@+id/audioButton" android:layout_weight="1"
+            />
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" android:layout_weight="1"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="VIDEO"
+            android:background="#FFFFFF"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:id="@+id/videoButton" android:layout_weight="1"/>
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" android:layout_weight="1"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="PDF"
+            android:background="#FFFFFF"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:id="@+id/pdfButton" android:layout_weight="1"/>
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" android:layout_weight="1"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="IMAGE"
+            android:background="#FFFFFF"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:id="@+id/imageButton" android:layout_weight="1"/>
+
+
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" android:layout_weight="2"/>
+
+</LinearLayout>
+
