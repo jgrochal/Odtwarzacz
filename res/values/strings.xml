@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Odtwarzacz</string>
+    <string name="pause">||</string>
+    <string name="restartStr"><![CDATA[<<]]></string>
+
 </resources>
